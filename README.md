@@ -15,7 +15,7 @@ RNN performs the same function for every input of data while the output of the c
 - It cannot process very long sequences if using tanh or relu as an activation function
 
 ## Vanishing Gradient Problem
-The further you go through the network, the lower your gradient is (the gradients of our loss function will approach zero) and the harder it is to train the weights (RNN uses backpropogation to train weights), therefore having a domino effect on all further weights throughout the network
+The further you go through the network, the lower your gradient is (the gradients of our loss function will approach zero) and the harder it is to train the weights (RNN uses backpropogation to train weights), therefore having a domino effect on all further weights throughout the network.
 
 ## Using LSTM as our RNN
 LSTM are a modified version of RNN. The usage of an LSTM over RNN can resolve the vanishing gradient problem. LSTM contain an input, forget, and output gate.
