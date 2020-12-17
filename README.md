@@ -32,7 +32,7 @@ The input and the momory of the block is used to decide the output. A sigmoid fu
 <br>
 
 # My Model
-The model is a neural network model with two input layers: LSTM input layer and technical indicators (dense) input layer. These inputs are then pooled together and put through a sigmoid activation. The model uses an adam optimizer with a learning rate of 0.0005 and a MSE loss function.
+The model is a recurrent neural network with two input layers: LSTM input layer and technical indicators (dense) input layer. These inputs are then pooled together and put through a sigmoid activation. The model uses an adam optimizer with a learning rate of 0.0005 and a MSE loss function.
 
 ## LSTM Input Layer
 For the LSTM input layer, a dropout with a frequency rate of 0.2 is used at each step during training to help prevent overfitting.
