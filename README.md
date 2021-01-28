@@ -27,7 +27,7 @@ This gate determines which values from the input should be used to modify the me
 This gate determines what details to be discarded from the block using a sigmoid function. It looks at the previous state and the content input and outputs a number between 0 (omit) and 1 (keep) for each number in the cell state.
 
 ## Output Gate
-The input and the momory of the block is used to decide the output. A sigmoid function decides which values to let through using 0 (omit) and 1 (keep). A tanh function provides weightage to the values which are passed deciding their level of importance ranging from -1 to 1 and multiplied with the output of Sigmoid.
+The input and the memory of the block is used to decide the output. A sigmoid function decides which values to let through using 0 (omit) and 1 (keep). A tanh function provides weightage to the values which are passed deciding their level of importance ranging from -1 to 1 and multiplied with the output of Sigmoid.
 
 <br>
 
